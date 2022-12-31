@@ -1,0 +1,49 @@
+.main {
+	overflow-x: hidden;
+	scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(300px);
+	scroll-snap-type: y mandatory;
+
+	::-webkit-scrollbar {
+		width: 5px;
+		background: transparent;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		background: rgb(145, 145, 145);
+	}
+
+	&__top {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 20px;
+		color: white;
+		flex-direction: column;
+	}
+
+	&__home {
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+		background-image: url("https://nitdgp.ac.in/iic/static/media/NitFrontGate.ac06eab6.webp");
+
+		&__buttons {
+			width: 300px;
+			position: relative;
+			top: 15%;
+			left: 10%;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+	}
+
+	&__about {
+		width: 100%;
+		height: 94vh;
+		background: #454545;
+		padding: 30px 30px 30px 100px;
+	}
+}
