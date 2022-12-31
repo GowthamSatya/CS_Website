@@ -5,8 +5,6 @@ import Box from "@mui/material/Box";
 import { Button } from "@mui/material";
 import React from "react";
 import Modal from "@mui/material/Modal";
-import { Phone } from "@mui/icons-material";
-
 const style = {
 	position: "absolute",
 	top: "50%",

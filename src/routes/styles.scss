@@ -50,7 +50,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
-	align-items: start;
+	align-items: flex-start;
 
 	&__map {
 		flex-basis: 45%;

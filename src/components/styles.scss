@@ -45,7 +45,7 @@
 	overflow: hidden;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: start;
+	align-items: flex-start;
 	align-content: stretch;
 	justify-content: space-between;
 	width: 90%;
@@ -53,8 +53,8 @@
 
 	&__about {
 		display: flex;
-		align-items: start;
-		justify-content: start;
+		align-items: flex-start;
+		justify-content: flex-start;
 		flex-direction: column;
 		flex-basis: 45%;
 		@media (max-width: 800px) {

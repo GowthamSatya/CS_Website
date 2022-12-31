@@ -98,11 +98,6 @@ box-shadow:  18px 18px 36px #373737,
 );
 
 const Courses = () => {
-	const [value, setValue] = React.useState(0);
-
-	const handleChange = (event, newValue) => {
-		setValue(newValue);
-	};
 
 	return (
 		<div className="courses">
